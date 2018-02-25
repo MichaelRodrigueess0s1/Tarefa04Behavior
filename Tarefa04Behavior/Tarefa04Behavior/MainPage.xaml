@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Tarefa04Behavior"
+             xmlns:behavior="clr-namespace:Tarefa04Behavior.Lib"
+             x:Class="Tarefa04Behavior.MainPage"             
+             >
+
+    <StackLayout>
+        <Label
+            Text="Teste"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+
+        <Entry            
+            Placeholder="Digite o seu nome: ">
+            <Entry.Behaviors>
+                <behavior:BibliotecaBehavior></behavior:BibliotecaBehavior>
+            </Entry.Behaviors>
+        </Entry>
+    </StackLayout>
+
+</ContentPage>

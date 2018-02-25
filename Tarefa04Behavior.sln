@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefa04Behavior.Android", "Tarefa04Behavior\Tarefa04Behavior.Android\Tarefa04Behavior.Android.csproj", "{9902C28B-AC95-41D4-B363-7AF3B0D0ACF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarefa04Behavior", "Tarefa04Behavior\Tarefa04Behavior\Tarefa04Behavior.csproj", "{805A9AC6-108C-4515-8E01-9E62F765A497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9902C28B-AC95-41D4-B363-7AF3B0D0ACF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9902C28B-AC95-41D4-B363-7AF3B0D0ACF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9902C28B-AC95-41D4-B363-7AF3B0D0ACF5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9902C28B-AC95-41D4-B363-7AF3B0D0ACF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9902C28B-AC95-41D4-B363-7AF3B0D0ACF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9902C28B-AC95-41D4-B363-7AF3B0D0ACF5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{805A9AC6-108C-4515-8E01-9E62F765A497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805A9AC6-108C-4515-8E01-9E62F765A497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805A9AC6-108C-4515-8E01-9E62F765A497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805A9AC6-108C-4515-8E01-9E62F765A497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5809E46E-85DC-4047-AF42-F64F43927BCD}
+	EndGlobalSection
+EndGlobal
